@@ -4,8 +4,8 @@
     <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category">
 
 <ul id="myMenu">
-  <li><a href="file:///Users/osvaldoescobar/Projects/Thinkment/philosophical_issues.html">Philosophical Issues</a></li>
-  <li><a href="file:///Users/osvaldoescobar/Projects/Thinkment/clashes_between_ideas.html">Clashes between Ideas</a></li>
+  <li><a href="">Philosophical Issues</a></li>
+  <li><a href="">Clashes between Ideas</a></li>
 
 
     
@@ -36,26 +36,7 @@
   background-color: #eee;
 }
 </style>
-<script>
-function myFunction() {
-  // Declare variables
-  var input, filter, ul, li, a, i;
-  input = document.getElementById("mySearch");
-  filter = input.value.toUpperCase();
-  ul = document.getElementById("myMenu");
-  li = ul.getElementsByTagName("li");
 
-  // Loop through all list items, and hide those who don't match the search query
-  for (i = 0; i < li.length; i++) {
-    a = li[i].getElementsByTagName("a")[0];
-    if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
-      li[i].style.display = "";
-    } else {
-      li[i].style.display = "none";
-    }
-  }
-}
-</script>
         <title>Thinkment: Philosophy and Ideology</title>
         <h1>Thinkment: Philosophy and Ideology</h1>
         <link rel="stylesheet" href="nice.css">
@@ -67,6 +48,7 @@ function myFunction() {
     	 .nice {font-family: sans-serif;}
     	</style>
       </head>
+    
     <body>
          <table>
     <tr>
