@@ -1,6 +1,4 @@
-<style> 
-        
-#mySearch {
+  #mySearch {
   width: 20%;
   font-size: 14px;
   padding: 9px;
@@ -23,4 +21,4 @@
 #myMenu li a:hover {
   background-color: #eee;
 }
-</style>
+
